@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive rating component</title>
+
+
+</head>
+<body>
+
+  <!-- Rating state start -->
+  <section class="card1">
+    <div class="card1__container">
+      <div class="card1__imgcontainer">
+        <img class="card1__img" src=".//images/icon-star.svg" alt="star icon">
+      </div>
+      <h1 class="card1__title">How did we do?</h1>
+      <p class="card1__p">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+      <div class="card1__rating">
+        <button class="card1__rating__item">1</button>
+        <button class="card1__rating__item">2</button>
+        <button class="card1__rating__item">3</button>
+        <button class="card1__rating__item">4</button>
+        <button class="card1__rating__item">5</button>
+      </div>
+    <button class="card1__button">Submit</button>
+  </div>
+  </section>
+
+  <section class="card2">
+    <img class="card2__img" src="./images/illustration-thank-you.svg" alt="illustration">
+    <span class="card2__rating">You selected <span class="card2__rating__number">0</span> out of 5</span>
+     <!-- Rating state end -->
+     <!-- Thank you state start -->
+    <h1 class="card2__title">Thank you!</h1>
+     <!-- Thank you state end -->
+    <p class="card2__p">We appreciate you taking the time to give a rating. If you ever need more support, 
+      don't hesitate to get in touch!</p>
+  </section>
+
+  <script src="/main.js"></script>
+</body>
+</html>
+
+
